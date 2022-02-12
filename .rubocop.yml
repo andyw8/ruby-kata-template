@@ -1,0 +1,18 @@
+# Based on
+# https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard
+
+require:
+  - rubocop-performance
+  - rubocop-minitest
+  - standard/cop/block_single_line_braces
+
+inherit_from:
+  - .rubocop_todo.yml
+
+inherit_gem:
+  standard: config/ruby-3.0.yml
+
+AllCops:
+  TargetRubyVersion: 3.1.0
+  NewCops: disable
+  SuggestExtensions: false
