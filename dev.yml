@@ -8,4 +8,10 @@ up:
 
 commands:
   test:
-    run: bundle exec rake test
+    run: |
+      if [[ $# -eq 0 ]]; then
+        bundle exec rake test
+      else
+        bundle exec m "$@"
+      fi
+  lint: bundle exec rubocop

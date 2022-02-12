@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "declarative_minitest"
+gem "m"
 gem "minitest"
 gem "minitest-reporters"
 gem "pry-byebug"

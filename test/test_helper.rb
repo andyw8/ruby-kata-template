@@ -1,4 +1,5 @@
 require "minitest/autorun"
+require "minitest/declarative"
 require "minitest/reporters"
 require "pry"
 
