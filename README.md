@@ -25,6 +25,7 @@ bundle exec rake test
 - Recommends the RuboCop-LSP extension for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
 - Enable color output for minitest
+- [`m`](https://github.com/qrush/m) to allow running tests by line number.
 
 ## Shopify Features
 
