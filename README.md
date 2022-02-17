@@ -24,6 +24,7 @@ bundle exec rake test
 - `rake test`, with support for both naming conventions (`test_*.rb` and `*_test.rb`)
 - Recommends the RuboCop-LSP extension for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
+- Enable color output for minitest
 
 ## Shopify Features
 
