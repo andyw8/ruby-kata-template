@@ -28,6 +28,14 @@ bundle exec rake test
 - Enable color output for minitest
 - [`m`](https://github.com/qrush/m) to allow running tests by line number.
 
+## Shopify Features
+
+If you work at Shopify, there are some additional features:
+
+- `dev up` to set up the project
+- `dev test`
+- `dev lint`
+
 ## Example Keybindings for VS Code
 
 It's highly recommended to have your editor configured so you can trigger a test from the keyboard.
@@ -49,12 +57,4 @@ If you don't already have something configured, you can copy the configuration b
   }
 ```
 
-(if you are not at Shopify, change `dev test` to `bundle exec m`)
-
-## Shopify Features
-
-If you work at Shopify, there are some additional features:
-
-- `dev up` to set up the project
-- `dev test`
-- `dev lint`
+(if you're not at Shopify, change `dev test` to `bundle exec m`)
