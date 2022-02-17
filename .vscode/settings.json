@@ -1,1 +1,6 @@
-{}
+{
+  "[ruby]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Shopify.rubocop-lsp"
+  }
+}
