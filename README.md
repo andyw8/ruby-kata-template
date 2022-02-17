@@ -28,6 +28,29 @@ bundle exec rake test
 - Enable color output for minitest
 - [`m`](https://github.com/qrush/m) to allow running tests by line number.
 
+## Example Keybindings for VS Code
+
+It's highly recommended to have your editor configured so you can trigger a test from the keyboard.
+
+If you don't already have something configured, you can copy the configuration below into your `keybindings.json`.
+
+```json
+  {
+    // run all tests in current test file
+    "key": "shift+cmd+r",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "dev test ${relativeFile}\u000D" }
+  },
+  {
+    // Run test at Current line
+    "key": "shift+cmd+i",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "dev test ${relativeFile}:${lineNumber}\u000D" }
+  }
+```
+
+(if you are not at Shopify, change `dev test` to `bundle exec m`)
+
 ## Shopify Features
 
 If you work at Shopify, there are some additional features:
