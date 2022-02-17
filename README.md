@@ -18,6 +18,7 @@ bundle exec rake test
 
 - Pry for debugging
 - [standardrb](https://github.com/testdouble/standard), a reduced RuboCop configuration.
+- rubocop-minitest (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
 - RuboCop-LSP
 - [declarative_minitest](https://github.com/peterzhu2118/declarative_minitest) so you can write `test "it works" do...` rather than `def test_it_works`.
