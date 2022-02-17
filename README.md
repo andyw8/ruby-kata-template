@@ -14,6 +14,8 @@ To run the tests:
 bundle exec rake test
 ```
 
+You should probably start by renaming `Project` to something more appropriate to the kata.
+
 ## Features
 
 - pry-byebug gem for debugging
