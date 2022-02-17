@@ -20,7 +20,7 @@ bundle exec rake test
 - [standardrb](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - rubocop-minitest (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
-- [ruboCop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
+- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - [declarative_minitest](https://github.com/peterzhu2118/declarative_minitest) gem, so you can write `test "it works" do...` rather than `def test_it_works`.
 - `rake test`, with support for both naming conventions (`test_*.rb` and `*_test.rb`)
 - Recommends the RuboCop-LSP extension for VS Code
