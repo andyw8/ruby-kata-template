@@ -1,6 +1,8 @@
 This a blank Ruby project ready to run with MiniTest.
 
-It's intended for both new and experienced developers to quickly get up and running on a kata.
+Jumping from an established project to a minimal Ruby app can be awkward, especially when you're used to the many conveniences that Rails provides.
+
+This template aims to make that easier. It's intended for both new and experienced developers to quickly get up and running on a kata.
 
 To set up this project, click the **Use this template** button, clone the new repo, then run:
 
