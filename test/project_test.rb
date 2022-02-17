@@ -1,7 +1,7 @@
 require "test_helper"
 require "project"
 
-class ProjectTest < Minitest::Test
+class ProjectTest < ActiveSupport::TestCase
   test "addition" do
     assert true, "Example passes, tests are executing correctly"
   end

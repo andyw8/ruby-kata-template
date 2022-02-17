@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "declarative_minitest"
+gem "activesupport"
 gem "m"
 gem "minitest"
 gem "minitest-reporters"

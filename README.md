@@ -25,7 +25,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - rubocop-minitest (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
-- [declarative_minitest](https://github.com/peterzhu2118/declarative_minitest) gem, so you can write `test "it works" do...` rather than `def test_it_works`.
+- ActiveSupport, so you can write `test "it works" do...` rather than `def test_it_works`.
 - `rake test`, with support for both naming conventions (`test_*.rb` and `*_test.rb`)
 - Recommends the RuboCop-LSP extension for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
