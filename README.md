@@ -1,4 +1,6 @@
-This a blank Ruby project ready to run with MiniTest
+This a blank Ruby project ready to run with MiniTest.
+
+It's intended for both new and experienced developers to get an up running on a kata.
 
 To set up this project, click the 'Use this template' button, clone the new repo, then run:
 
