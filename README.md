@@ -1,6 +1,6 @@
 This a blank Ruby project ready to run with MiniTest
 
-To set up this project, run:
+To set up this project, click the 'Use this template' button, clone the new repo, then run:
 
 ```
 bundle install
