@@ -2,8 +2,8 @@
 # https://evilmartians.com/chronicles/rubocoping-with-legacy-bring-your-ruby-code-up-to-standard
 
 require:
-  - rubocop-performance # needed for standardrb
   - rubocop-minitest
+  - rubocop-performance # needed for standardrb
   - standard/cop/block_single_line_braces # needed for standardrb
 
 inherit_from:
