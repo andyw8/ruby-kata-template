@@ -13,6 +13,6 @@ inherit_gem:
   standard: config/ruby-3.0.yml
 
 AllCops:
-  TargetRubyVersion: 3.1.0
+  TargetRubyVersion: <%= File.read(".ruby-version").strip %>
   NewCops: enable
   SuggestExtensions: false
