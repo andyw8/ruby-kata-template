@@ -44,7 +44,7 @@ If you work at Shopify, there are some additional features:
 
 ## Example Keybindings for VS Code
 
-It's highly recommended to configured your editor to allowed a test to be triggered from the keyboard.
+It's very helpful to configure your editor to allow a test to be triggered from the keyboard.
 
 If you don't already have a solution, you can copy the configuration below into your `keybindings.json`.
 
