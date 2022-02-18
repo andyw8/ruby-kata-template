@@ -6,6 +6,9 @@ up:
   - ruby: 3.1.0
   - bundler
 
+env:
+  DEV_NO_AUTO_UPDATE: "1"
+
 commands:
   test:
     run: |

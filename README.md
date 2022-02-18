@@ -40,6 +40,8 @@ If you work at Shopify, there are some additional features:
 - `dev test`
 - `dev lint`
 
+(we also set `DEV_NO_AUTO_UPDATE` to prevent `dev` updating at an inconvenient time)
+
 ## Example Keybindings for VS Code
 
 It's highly recommended to configured your editor to allowed a test to be triggered from the keyboard.
