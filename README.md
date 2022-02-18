@@ -21,7 +21,7 @@ You should probably start by renaming `Project` to something more appropriate to
 ## Features
 
 - [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) gem for debugging
-- [standardrb](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
+- [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
