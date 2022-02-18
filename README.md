@@ -20,17 +20,17 @@ You should probably start by renaming `Project` to something more appropriate to
 
 ## Features
 
-- pry-byebug gem for debugging
+- [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) gem for debugging
 - [standardrb](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
-- rubocop-minitest (to catch common mistakes rather than enforce style)
+- [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
-- ActiveSupport, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
+- `active_support/test_case`, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for both naming conventions (`test_*.rb` and `*_test.rb`)
-- Recommends the RuboCop-LSP extension for VS Code
+- Recommends the [RuboCop-LSP extension](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
-- Enable color output for minitest
-- [`m`](https://github.com/qrush/m) to allow running tests by line number.
+- [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
+- [m](https://github.com/qrush/m) gem to allow running tests by line number.
 
 ## Shopify Features
 
