@@ -64,3 +64,4 @@ If you don't already have a solution, you can copy the configuration below into 
 ```
 
 (if you're not at Shopify, change `dev test` to `bundle exec m`)
+x
