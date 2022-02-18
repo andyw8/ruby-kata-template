@@ -14,5 +14,5 @@ inherit_gem:
 
 AllCops:
   TargetRubyVersion: 3.1.0
-  NewCops: disable
+  NewCops: enable
   SuggestExtensions: false
