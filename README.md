@@ -26,7 +26,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - CI using GitHub Actions
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - `active_support/test_case`, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
-- `rake test`, with support for both naming conventions (`test_*.rb` and `*_test.rb`)
+- `rake test`, with support for both MiniTest naming conventions (`test_*.rb` and `*_test.rb`)
 - Recommends the [RuboCop-LSP extension](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
