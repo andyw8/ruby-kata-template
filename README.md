@@ -64,3 +64,8 @@ If you don't already have a solution, you can copy the configuration below into 
 ```
 
 (if you're not at Shopify, change `dev test` to `bundle exec m`)
+
+## Troubleshooting
+
+`unknown command 'm' (ArgumentError)` - this happens if your test inherits from `Minitest::Test` instead of
+`ActiveSupport::TestCase`, but I'm currently unsure why.
