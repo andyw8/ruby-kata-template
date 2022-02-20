@@ -4,7 +4,13 @@ Jumping from an established project to a minimal Ruby app can be awkward, especi
 
 This template aims to make that easier. It's intended for both new and experienced developers to quickly get up and running on a kata.
 
-To set up this project, click the **Use this template** button, clone the new repo, then run:
+To set up this project, click the **Use this template** button, clone the new repo, or using the GitHub CLI:
+
+```
+gh repo create YOUR_KATA_NAME --private --template andyw8/ruby-kata-template --clone
+```
+
+Then run:
 
 ```
 bundle install
