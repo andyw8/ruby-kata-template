@@ -26,17 +26,22 @@ You should probably start by renaming `Project` to something more appropriate to
 
 ## Features
 
-- [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug) gem for debugging
+- [ruby-debug](https://github.com/ruby/debug) gem for debugging (instead of pry-byebug, etc.)
 - [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - `active_support/test_case`, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
-- Recommends the [RuboCop-LSP extension](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) for VS Code
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
+
+For VS Code, the follow recommended extensions are configured:
+
+- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`)
+- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`)
+- [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) (`KoichiSasada.vscode-rdbg`)
 
 ## Shopify Features
 

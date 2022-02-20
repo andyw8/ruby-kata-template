@@ -1,3 +1,7 @@
 {
-  "recommendations": ["Shopify.rubocop-lsp"]
+  "recommendations": [
+    "rebornix.ruby"
+    "shopify.rubocop-lsp",
+    "koichisasada.vscode-rdbg",
+  ]
 }
