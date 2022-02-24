@@ -10,6 +10,8 @@ To set up this project, click the **Use this template** button, clone the new re
 gh repo create YOUR_KATA_NAME --private --template andyw8/ruby-kata-template --clone
 ```
 
+> **Note:** If you work at Shopify, you can use the `dev` commands.
+
 Then run:
 
 ```
