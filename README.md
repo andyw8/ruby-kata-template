@@ -31,7 +31,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - [ruby-debug](https://github.com/ruby/debug) gem for debugging (instead of pry-byebug, etc.)
 - [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
-- CI using GitHub Actions
+- CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - `active_support/test_case`, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
