@@ -38,6 +38,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
+- Blank `NOTES.md` file
 
 For VS Code, the follow recommended extensions are configured:
 
