@@ -32,24 +32,23 @@ You should probably start by renaming `Project` to something more appropriate to
 
 ## Features
 
-- [ruby-debug](https://github.com/ruby/debug) gem for debugging (instead of pry-byebug, etc.)
-- [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
-- [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
-- CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
-- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - `active_support/test_case`, so you can write 'declarative' tests, e.g. `test "it works" do...` rather than `def test_it_works`.
   - (Note: This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
-- Configures RuboCop-LSP and enables **Format On Save** for VS Code
-- [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
+- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
-- A blank `NOTES.md` file
+- [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
+- [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
+- [ruby-debug](https://github.com/ruby/debug) gem for debugging (instead of pry-byebug, etc.)
+- [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
+- CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
+- A blank `NOTES.md` file
 
 # VS Code Features
 
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`) extension
-- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`) extension
+- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`) extension, with 'Format on Save' enabled
 - [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) (`KoichiSasada.vscode-rdbg`) extension
 - Disables the GitHub Copilot VS Code extension
 
