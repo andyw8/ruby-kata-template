@@ -45,13 +45,13 @@ You should probably start by renaming `Project` to something more appropriate to
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - A blank `NOTES.md` file
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
-- Disabled the GitHub Copilot VS Code extension
 
-For VS Code, the follow recommended extensions are configured:
+# VS Code Features
 
-- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`)
-- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`)
-- [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) (`KoichiSasada.vscode-rdbg`)
+- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`) extension
+- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`) extension
+- [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) (`KoichiSasada.vscode-rdbg`) extension
+- Disables the GitHub Copilot VS Code extension
 
 ## Shopify Features
 
