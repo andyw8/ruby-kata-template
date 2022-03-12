@@ -2,10 +2,8 @@
   "recommendations": [
     "rebornix.ruby"
     "shopify.rubocop-lsp",
-    "koichisasada.vscode-rdbg",
+    "koichisasada.vscode-rdbg"
   ],
-  
-  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": [
      "GitHub.copilot"
 	]
