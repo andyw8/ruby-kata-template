@@ -35,7 +35,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - `active_support/test_case`, so you can write 'declarative' tests, e.g. `test "it works" do...` rather than `def test_it_works`.
   - (Note: This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
-- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
+- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem for instant linting/formatting
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
