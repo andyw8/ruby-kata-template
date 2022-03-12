@@ -4,13 +4,17 @@ Jumping from an established project to a minimal Ruby app can be awkward, especi
 
 This template aims to make that easier. It's intended for both new and experienced developers to quickly get up and running on a kata.
 
-To set up this project, click the **Use this template** button, clone the new repo, or using the GitHub CLI:
+To set up this project either:
 
-```
-gh repo create YOUR_KATA_NAME --private --template andyw8/ruby-kata-template --clone
-```
+- Click [**Use this template**](https://github.com/andyw8/ruby-kata-template/generate) button and clone the new repo
 
-> **Note:** If you work at Shopify, you can use the `dev` commands.
+or
+
+- Use the GitHub CLI:
+
+  ```
+  gh repo create YOUR_KATA_NAME --private --template andyw8/ruby-kata-template --clone
+  ```
 
 Then run:
 
@@ -24,6 +28,8 @@ To run the tests:
 bundle exec rake test
 ```
 
+> **Note:** If you work at Shopify, you can use `dev up` and `dev test`.
+
 You should probably start by renaming `Project` to something more appropriate to the kata.
 
 ## Features
@@ -33,12 +39,13 @@ You should probably start by renaming `Project` to something more appropriate to
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
 - CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
 - [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem
-- `active_support/test_case`, so you can write `test "it works" do...` rather than `def test_it_works`. (This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
+- `active_support/test_case`, so you can write 'declarative' tests, e.g. `test "it works" do...` rather than `def test_it_works`.
+  - (Note: This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
 - Configures RuboCop-LSP and enables **Format On Save** for VS Code
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
-- Blank `NOTES.md` file
+- A blank `NOTES.md` file
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
 
 For VS Code, the follow recommended extensions are configured:
