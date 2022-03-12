@@ -45,6 +45,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - A blank `NOTES.md` file
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
+- Disabled the GitHub Copilot VS Code extension
 
 For VS Code, the follow recommended extensions are configured:
 
