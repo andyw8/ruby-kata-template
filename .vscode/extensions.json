@@ -5,6 +5,6 @@
     "koichisasada.vscode-rdbg"
   ],
   "unwantedRecommendations": [
-     "GitHub.copilot"
-	]
+    "GitHub.copilot"
+  ]
 }
