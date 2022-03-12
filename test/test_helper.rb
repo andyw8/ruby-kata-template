@@ -5,3 +5,9 @@ require "minitest/autorun"
 require "minitest/reporters"
 
 Minitest::Reporters.use!([Minitest::Reporters::DefaultReporter.new(color: true)])
+
+module ActiveSupport
+  class TestCase
+    make_my_diffs_pretty!
+  end
+end

@@ -39,6 +39,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - Blank `NOTES.md` file
+- Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
 
 For VS Code, the follow recommended extensions are configured:
 
