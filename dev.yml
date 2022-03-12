@@ -12,9 +12,12 @@ env:
 commands:
   test:
     run: |
+      export DEV_NO_AUTO_UPDATE=1
       if [[ $# -eq 0 ]]; then
         bundle exec rake test
       else
         bundle exec m "$@"
       fi
-  lint: bundle exec rubocop
+  lint: |
+    export DEV_NO_AUTO_UPDATE=1
+    bundle exec rubocop

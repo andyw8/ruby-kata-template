@@ -28,8 +28,6 @@ To run the tests:
 bundle exec rake test
 ```
 
-> **Note:** If you work at Shopify, you can use `dev up` and `dev test`.
-
 You should probably start by renaming `Project` to something more appropriate to the kata.
 
 ## Features
