@@ -59,6 +59,7 @@ If you work at Shopify, there are some additional features:
 - `dev up` to set up the project
 - `dev test`
 - `dev lint`
+- `dev tcr` ([Test-Commit-Revert](https://www.honeybadger.io/blog/ruby-tcr-test-commit-revert/))
 
 (we also set `DEV_NO_AUTO_UPDATE` to prevent `dev` updating at an inconvenient time)
 
