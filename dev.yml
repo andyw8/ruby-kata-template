@@ -21,5 +21,4 @@ commands:
   lint: |
     export DEV_NO_AUTO_UPDATE=1
     bundle exec rubocop
-  tcr:
-    (bundle exec rake test && git commit -am "WIP") || git reset --hard
+  tcr: (bundle exec rake test && git commit -am "WIP (Test-Commit-Revert)") || git reset --hard
