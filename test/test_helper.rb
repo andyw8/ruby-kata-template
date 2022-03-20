@@ -1,6 +1,6 @@
 require "active_support"
 require "active_support/test_case"
-require "debug"
+require "pry-byebug"
 require "minitest/autorun"
 require "minitest/reporters"
 

@@ -1,11 +1,4 @@
 {
-  "recommendations": [
-    "rebornix.ruby",
-    "shopify.rubocop-lsp",
-    "koichisasada.vscode-rdbg"
-  ],
-  "unwantedRecommendations": [
-    "GitHub.copilot",
-    "GitHub.copilot-nightly"
-  ]
+  "recommendations": ["rebornix.ruby", "shopify.rubocop-lsp"],
+  "unwantedRecommendations": ["GitHub.copilot", "GitHub.copilot-nightly"]
 }

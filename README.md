@@ -39,7 +39,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
-- [ruby-debug](https://github.com/ruby/debug) gem for debugging (instead of pry-byebug, etc.)
+- [pry-byebug](https://github.com/deivid-rodriguez/pry-byebug)
 - [minitest-reporters](https://github.com/minitest-reporters/minitest-reporters) for color output in MiniTest
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
 - CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
@@ -49,7 +49,6 @@ You should probably start by renaming `Project` to something more appropriate to
 
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`) extension
 - [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`) extension, with 'Format on Save' enabled
-- [VSCode rdbg Ruby Debugger](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg) (`KoichiSasada.vscode-rdbg`) extension
 - Disables the GitHub Copilot VS Code extension
 
 ## Shopify Features
