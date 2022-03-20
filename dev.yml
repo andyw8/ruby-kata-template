@@ -4,7 +4,9 @@ type: ruby
 
 up:
   - ruby: 3.1.0
-  - bundler
+  - bundler:
+      config:
+        BUNDLE_IGNORE_MESSAGES: 1
 
 env:
   DEV_NO_AUTO_UPDATE: "1"
