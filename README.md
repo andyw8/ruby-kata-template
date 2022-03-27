@@ -44,6 +44,8 @@ You should probably start by renaming `Project` to something more appropriate to
 - Minitest `make_my_diffs_pretty!` enabled for easier reading of failures
 - CI using GitHub Actions (remove `.example` from `.github-actions/ruby.yml.example` to enable)
 - A blank `NOTES.md` file
+- Mocha
+- Solargraph
 
 # VS Code Features
 
