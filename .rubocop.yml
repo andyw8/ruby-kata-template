@@ -18,3 +18,6 @@ AllCops:
   TargetRubyVersion: <%= File.read(".ruby-version").strip %>
   NewCops: enable
   SuggestExtensions: false
+
+Minitest/MultipleAssertions:
+  Enabled: false
