@@ -21,3 +21,6 @@ AllCops:
 
 Minitest/MultipleAssertions:
   Enabled: false
+
+Style/IfInsideElse:
+  Enabled: false
