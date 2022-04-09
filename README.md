@@ -22,10 +22,10 @@ Then run:
 bundle install
 ```
 
-To run the tests:
+To run the tests and `standard` linting:
 
 ```
-bundle exec rake test
+bundle exec rake
 ```
 
 You should probably start by renaming `Project` to something more appropriate to the kata.
