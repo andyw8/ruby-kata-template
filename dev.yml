@@ -3,7 +3,10 @@ name: kata-template
 type: ruby
 
 up:
-  - ruby: 3.1.0
+  - ruby:
+      version: 3.1.0
+      gems:
+        - solargraph
   - bundler:
       config:
         BUNDLE_IGNORE_MESSAGES: 1
