@@ -35,7 +35,7 @@ You should probably start by renaming `Project` to something more appropriate to
 - `active_support/test_case`, so you can write 'declarative' tests, e.g. `test "it works" do...` rather than `def test_it_works`.
   - (Note: This means your tests need to inherit from `ActiveSupport::TestCase` rather than `Minitest::Test`)
 - `rake test`, with support for [both MiniTest naming conventions](https://minitest.rubystyle.guide/#file-naming) (`test_*.rb` and `*_test.rb`)
-- [rubocop-lsp](https://rubygems.org/gems/rubocop-lsp) gem for instant linting/formatting
+- [ruby-lsp](https://rubygems.org/gems/ruby-lsp) gem for instant linting/formatting
 - [m](https://github.com/qrush/m) gem to allow running tests by line number.
 - [standard](https://github.com/testdouble/standard) gem, a reduced RuboCop configuration.
 - [rubocop-minitest](https://github.com/rubocop/rubocop-minitest) (to catch common mistakes rather than enforce style)
@@ -49,8 +49,8 @@ You should probably start by renaming `Project` to something more appropriate to
 
 # VS Code Features
 
-- [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby) (`rebornix.Ruby`) extension
-- [RuboCop-LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.rubocop-lsp) (`Shopify.rubocop-lsp`) extension, with 'Format on Save' enabled
+- [Shopify Ruby Extensions Pack](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-extensions-pack)
+- 'Format on Save' enabled
 - Disables the GitHub Copilot VS Code extension
 
 ## Shopify Features

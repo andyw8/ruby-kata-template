@@ -48,6 +48,7 @@ GEM
     parallel (1.21.0)
     parser (3.1.0.0)
       ast (~> 2.4.1)
+    prettier_print (0.1.0)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -72,14 +73,15 @@ GEM
       unicode-display_width (>= 1.4.0, < 3.0)
     rubocop-ast (1.15.2)
       parser (>= 3.0.1.1)
-    rubocop-lsp (0.1.6)
-      language_server-protocol (>= 3.16)
-      rubocop (>= 1.0)
     rubocop-minitest (0.17.2)
       rubocop (>= 0.90, < 2.0)
     rubocop-performance (1.13.2)
       rubocop (>= 1.7.0, < 2.0)
       rubocop-ast (>= 0.4.0)
+    ruby-lsp (0.0.2)
+      language_server-protocol
+      rubocop (>= 1.0)
+      syntax_tree (>= 2.3)
     ruby-progressbar (1.11.0)
     solargraph (0.44.3)
       backport (~> 1.2)
@@ -99,6 +101,8 @@ GEM
     standard (1.7.1)
       rubocop (= 1.25.1)
       rubocop-performance (= 1.13.2)
+    syntax_tree (2.6.0)
+      prettier_print
     thor (1.2.1)
     tilt (2.0.10)
     tzinfo (2.0.4)
@@ -120,8 +124,8 @@ DEPENDENCIES
   mocha
   pry-byebug
   rake
-  rubocop-lsp
   rubocop-minitest
+  ruby-lsp
   solargraph
   standard
 

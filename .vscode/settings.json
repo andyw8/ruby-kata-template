@@ -1,7 +1,7 @@
 {
   "[ruby]": {
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "Shopify.rubocop-lsp"
+    "editor.defaultFormatter": "Shopify.ruby-lsp"
   },
   "github.copilot.enable": {
     "*": false
