@@ -3,10 +3,7 @@
 
 require:
   - rubocop-minitest
-  # Performance cops are bundled with Standard
-  - rubocop-performance
-  # Standard's config uses this custom cop, so it must be loaded
-  - standard/cop/block_single_line_braces
+  - standard
 
 inherit_from:
   - .rubocop_todo.yml
